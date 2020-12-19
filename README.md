@@ -21,8 +21,10 @@ console.log(JSON.stringify({
 }));
 ```
 
-Copy the resulting data to your `user_info.json` file.
-This will allow the Python script to read your puzzles,
+Copy the resulting data to a file in this directory named `user_info.json`.
+Check the `user_info.example.json` file to see what this should look like.
+
+NOTE: This user data will allow the Python script to read your puzzles,
 so be sure not to post the contents of this file publically as it enables
 others to access your account without needing your password.
 
