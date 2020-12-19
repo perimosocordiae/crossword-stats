@@ -19,7 +19,7 @@ def get_user_info():
     return json.load(open(path))
 
 
-def user_id() -> int:
+def user_id():
     return get_user_info()['user_id']
 
 
